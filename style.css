@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.center {
+    padding-left: calc(50% - 1250px/2);
+    padding-right: calc(50% - 1250px/2);
+}
+
+.top {
+    background: #F6F2F2;
+    padding-top: 29px;
+    padding-bottom: 110px;
+
+}
+
+.header {
+    background-color: #000000;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.49px;
+    color: #E0E0E0;
+    padding: 38px 23px 26px 23px;
+    display: flex;
+}
+
+.menu__link:hover {
+    background: #FF3F40;
+}
+
+.menu__link_active {
+    background: #FF3F40;
+}
+
+/* end of header */
+.top__content {
+    margin-top: 101px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top__info {
+    width: 617px;
+}
+
+.title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.text_width_500 {
+    width: 536px;
+    margin: 28px auto 32px;
+    text-align: center;
+}
+
+.text_small {
+    width: 450px;
+}
+
+.text_big {
+    max-width: 654px;
+}
+
+.top__text {
+    width: 544px;
+    margin-top: 36px;
+    margin-bottom: 64px;
+}
+
+.top__video {
+    width: 553px;
+    height: 359px;
+    box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
+}
+
+.button {
+    padding: 14px 63px 17px 63px;
+    background-color: #FF2D2D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.0412px;
+    line-height: 34px;
+    letter-spacing: 0.3195px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #FF2D2D;
+    background-color: #FFFFFF;
+    border: 2px solid #FF0000;
+}
+
+/* lesson 2!! */
+.service {
+    padding-top: 108px;
+}
+
+.service-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    border-bottom: 5px solid #ECECEC;
+    padding-top: 108px;
+}
+
+.service__heading {
+    margin-top: 33px;
+    margin-bottom: 13px;
+}
+
+.heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.422159px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.heading_center {
+    text-align: center;
+}
+
+.service-flex__content {
+    width: 538px;
+}
+
+.service__text {
+    margin-bottom: 60px;
+}
+
+.service__button {
+    padding: 16px 60px 15px 60px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    align-items: center;
+    letter-spacing: 0.32px;
+    color: #FF2D2D;
+    border-radius: 5px;
+}
+
+.service__button:hover {
+    background-color: #FF2D2D;
+    color: #FFFFFF;
+}
+
+.service-flex__info {
+    width: 609px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 52px;
+}
+
+/* flex-basis тут задает размеры блок, типа как видз */
+.service__item {
+    flex-grow: 1;
+    flex-basis: 290px;
+}
+
+/* ======================== */
+
+/* 3 block!!!! */
+
+.products {
+    padding-top: 105px;
+}
+
+.products__line {
+    width: 134px;
+    height: 5px;
+    background-color: #FF2D2D;
+    margin: auto;
+}
+
+.products__box {
+    padding-top: 86px;
+}
+
+.products__links {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.products__link {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: color .3s;
+}
+
+.products__link:hover {
+    color: rgba(255, 45, 45, 1);
+
+}
+
+.products__link_active {
+    color: rgba(255, 45, 45, 1);
+}
+
+.products__items {
+    margin-top: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    padding-left: calc(50% - 1256px / 2);
+    padding-right: calc(50% - 1256px / 2);
+
+}
+
+.products__item {
+    display: flex;
+}
+
+/* ------------------------------------------------- */
+/* 4 block !!33 lesson */
+.meet {
+    margin-top: 132px;
+    padding-left: calc(50% - 609px);
+    padding-bottom: 115px;
+}
+
+.meet__text {
+    margin-top: 34px;
+    margin-bottom: 37px;
+}
+
+.meet__line {
+    width: 132px;
+    height: 5px;
+    background-color: #FF0000;
+}
+
+.meet__content {
+    margin-top: 66px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+
+.meet__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.275265px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 29px;
+    margin-top: 16px;
+}
+
+
+.meet__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-top: 45px;
+}
+
+.meet__link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #000000;
+}
+
+.meet__link:hover {
+    text-decoration: underline;
+}
+
+.meet__peoples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 58px;
+}
+
+.meet__people {
+    display: flex;
+    position: relative;
+    width: 190px;
+    height: 216px;
+    background-color: #FF3F40;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow: hidden;
+}
+
+/*  по итогу выезжает плавно слева */
+.meet__people:hover .meet__name-box {
+    left: 0;
+}
+
+.meet__name-box {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    /* тут задаем -100%, чтоб он был изнасально сдвинут, но выше писали оверфлоу хидден чтоб скрыть. А когда будет ховер, то станет все ок */
+    left: -100%;
+    transition: left 1.3s;
+}
+
+
+
+.meet__person-name {
+    width: 100%;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 0px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
